@@ -4,9 +4,9 @@ body {
   font-family: 'Muli', sans-serif;
 }
 
-.contract, .existing-contracts {
+.contract, .existing-contracts, .balance {
   margin: 20px;
-  display: inline-block;
+  display: inline-grid;
   padding: 40px;
   border: 1px solid #ddd;
   background-color: #fff;
@@ -64,7 +64,12 @@ input[type="text"] {
   font-weight: bold;
 }
 
-.existing-contract .complete {
+.existing-contract .complete .balance{
   color: #5aa75a;
+  text-align: center;
+}
+
+.balance div {
+  margin: 0 5px;
   text-align: center;
 }
